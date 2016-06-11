@@ -10,7 +10,7 @@ Application runs silently behind processes. Once app detects possibly dangerous 
 Detecting is triggered each 20 minutes. Integrated camera is used for grabbing enough frames for detection (about 15 seconds). Detection requires stable record (and face between camera of course), but user shouldn't notice any additional requirements. Application recognize unsuccessful attempt to detect heart rate and shorten period to next detection attempt and triggers pipeline again.
 
 ### Dangerous heart rate
-Unusual high heart rate is called tachycardia and can be related to some diseases especially connected to nervous situation. Also people nervous system problems that are told to keep calm during workdays can monitor theirs heart rate in noninvasive way without even noticing (until potential problem).
+Unusual high heart rate is called tachycardia and can be related to some diseases especially connected to neural situation. Also people neural system problems that are told to keep calm during workdays can monitor theirs heart rate in noninvasive way without even noticing (until potential problem).
 
 ### Notification
 Standard minimal cutoff heart rate - above considered as tachycardia - is 100 bpm. After detecting higher bpm application runs second attempt immediately again to double ensure correct result. In case of second dangerous detection pushes native _push notification_ to inform user, result is ignored in the other way.    
